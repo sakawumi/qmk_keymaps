@@ -17,9 +17,9 @@ void clicked(void) {
 
 void turned(bool clockwise) {
     if (clockwise){
-        layer_on(1);
+        tap_code(KC_VOLD);
     } else {
-        layer_off(1);
+        tap_code(KC_VOLU);
     }
 }
 

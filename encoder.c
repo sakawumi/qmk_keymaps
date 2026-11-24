@@ -12,7 +12,7 @@ static bool colABPressed   = false;
 static bool encoderPressed = false;
 
 void clicked(void) {
-    layer_invert(3);
+    tap_code(KC_MPLY);
 }
 
 void turned(bool clockwise) {
